@@ -1,19 +1,19 @@
 {
   "version": "0.8.5",
   "releaseLabel": "Piloto",
-  "published": false,
+  "published": true,
   "date": "2026-10-31",
-  "notes": "Nueva cinematica para la cancion secreta, integrada antes de empezar la batalla.",
+  "notes": "Nueva cinemática para la canción secreta, integrada antes de empezar la batalla.",
   "downloads": {
     "windows": {
       "bytes": 226896774,
-      "url": null,
-      "sha256": "6fa6e5d76c0bbb526d45332a9ab010cc40a9eacdbca9b32b71b727528c285930"
+      "sha256": "6fa6e5d76c0bbb526d45332a9ab010cc40a9eacdbca9b32b71b727528c285930",
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Windows.zip"
     },
     "android": {
       "bytes": 199056810,
-      "url": null,
-      "sha256": "751db1a20d43900c1af76eefdab4cf614a00b59de020695c7575d06577563310"
+      "sha256": "751db1a20d43900c1af76eefdab4cf614a00b59de020695c7575d06577563310",
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Android.apk"
     }
   }
 }
