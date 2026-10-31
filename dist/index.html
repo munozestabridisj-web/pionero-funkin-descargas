@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#efd04e"><meta name="description" content="Descarga la ultima version de FNF: Pionero Funkin para Windows y Android. Un mod de Josep inspirado en el Colegio Cristiano Pionero.">
+  <title>Pionero Funkin’ · Descargas</title>
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect x='3' y='3' width='58' height='58' rx='12' fill='%23f5ce42' stroke='%231b1420' stroke-width='6'/%3E%3Ctext x='32' y='44' text-anchor='middle' font-family='Arial' font-weight='900' font-size='35'%3EP%3C/text%3E%3C/svg%3E">
+  <style>
+    @font-face{font-family:VCR;src:url(assets/vcr.ttf) format('truetype');font-display:swap}
+    :root{--ink:#211727;--paper:#fffdf4;--yellow:#f6ce45;--pink:#f14f94;--blue:#7cdbdf}
+    *{box-sizing:border-box}body{margin:0;background:#eae3d4;color:var(--ink);font:16px/1.5 Arial,sans-serif;background-image:linear-gradient(0deg,#c7d2d6 0 19%,transparent 19%);min-height:100vh}
+    a{color:inherit}button,a{-webkit-tap-highlight-color:transparent}a:focus-visible,summary:focus-visible{outline:4px solid #7957ee;outline-offset:6px}
+    .board{max-width:1120px;margin:36px auto;padding:28px 44px 30px;background:#b97a43;border:7px solid var(--ink);box-shadow:inset 0 0 0 9px #ce925a,11px 12px 0 #2117272b;position:relative}
+    .board::before,.board::after{content:'';position:absolute;background:#f6e0b3;border:2px solid #21172773;width:66px;height:24px;top:29px;transform:rotate(-28deg);left:-16px}.board::after{left:auto;right:-16px;transform:rotate(28deg)}
+    .topline{display:flex;justify-content:space-between;gap:16px;align-items:center;font:14px VCR,monospace;letter-spacing:.03em}.tag{background:var(--yellow);border:3px solid var(--ink);padding:5px 12px;box-shadow:3px 3px 0 var(--ink);transform:rotate(-2deg)}.author{color:#211727;background:#f6e5c9;padding:3px 8px}
+    .logo{display:block;width:min(100%,640px);height:auto;margin:10px auto 20px;filter:drop-shadow(5px 6px 0 #21172755)}
+    .sheet{max-width:830px;margin:auto;background:var(--paper);border:4px solid var(--ink);padding:30px 34px 24px;box-shadow:8px 8px 0 var(--ink);position:relative}
+    .pin{position:absolute;top:-14px;left:calc(50% - 11px);width:23px;height:23px;border:4px solid var(--ink);border-radius:50%;background:var(--pink);box-shadow:2px 3px 0 #21172755}.pin::after{content:'';position:absolute;width:6px;height:4px;background:white;border-radius:50%;top:2px;left:3px}
+    .version{display:flex;justify-content:center;gap:9px;align-items:center;flex-wrap:wrap;font:15px VCR,monospace;color:#615663;text-align:center}.dot{width:8px;height:8px;border-radius:50%;background:#35a477}.version strong{color:var(--ink)}
+    h1{font:900 clamp(28px,4vw,43px)/1.08 Impact,'Arial Black',Arial,sans-serif;text-transform:uppercase;letter-spacing:.01em;text-align:center;margin:15px 0 12px}.intro{max-width:570px;margin:0 auto 23px;text-align:center;color:#5b505b;font-size:16px}
+    .downloads{display:grid;grid-template-columns:1fr 1fr;gap:18px}.download{display:flex;gap:13px;align-items:center;border:4px solid var(--ink);box-shadow:5px 5px 0 var(--ink);padding:18px 16px;text-decoration:none;transition:transform .12s,box-shadow .12s;background:var(--yellow);min-height:110px}.download.android{background:var(--pink)}.download:hover{transform:translate(-2px,-3px);box-shadow:7px 8px 0 var(--ink)}.download:active{transform:translate(3px,3px);box-shadow:2px 2px 0 var(--ink)}.download[aria-disabled=true]{cursor:wait}.download svg{width:34px;height:34px;flex:none;stroke:currentColor;stroke-width:2.4;fill:none}.platform{font:900 23px/1.1 Impact,'Arial Black',Arial,sans-serif;display:block;letter-spacing:.025em}.format{font:13px VCR,monospace;display:block;margin-top:8px;opacity:.85}.arrow{margin-left:auto;font-size:26px;font-weight:900}.pending{margin:15px 0 0;font:13px VCR,monospace;text-align:center;color:#6f6174}
+    .included{display:flex;justify-content:center;gap:8px;flex-wrap:wrap;margin:26px 0 21px}.included span{font:12px VCR,monospace;background:#f0e9f4;border:1.5px solid var(--ink);padding:4px 8px}
+    .news{padding:13px 15px;background:#e8f5ed;border-left:5px solid #32805c;color:#384c40;font-size:14px}.news b{display:block;margin-bottom:3px}.news p{margin:0}
+    details{margin-top:20px;border-top:2px dashed #cbbfc7;padding-top:15px;font-size:14px}summary{cursor:pointer;font-weight:bold;list-style-position:outside;margin-left:16px}details .instructions{display:grid;grid-template-columns:1fr 1fr;gap:20px;padding-top:11px}.instructions p{margin:4px 0;color:#615663}.instructions strong{color:var(--ink)}.ios{margin:19px 0 0;color:#766a76;font-size:12px;text-align:center}
+    .keep{display:block;width:fit-content;max-width:92%;margin:23px auto 0;padding:9px 17px;background:var(--blue);border:3px solid var(--ink);box-shadow:4px 4px 0 var(--ink);font:14px/1.3 VCR,monospace;text-align:center;transform:rotate(-1deg)}footer{font-size:11px;color:#f8ebda;text-align:center;margin-top:19px}footer p{margin:3px 0}
+    @media(max-width:720px){.board{margin:15px 12px;padding:21px 17px 25px;border-width:5px;box-shadow:5px 6px 0 #2117272b}.topline{font-size:11px;gap:10px}.tag{padding:4px 7px}.author{padding:3px 5px}.logo{margin:18px auto 21px}.sheet{padding:27px 18px 20px;box-shadow:5px 5px 0 var(--ink)}h1{font-size:32px}.intro{font-size:14px}.downloads{grid-template-columns:1fr;gap:14px}.download{min-height:92px;padding:15px}.platform{font-size:25px}.included{margin-top:24px;gap:5px}.included span{font-size:10px}.version{font-size:12px}.news{font-size:13px}.instructions{grid-template-columns:1fr!important;gap:10px!important}.keep{font-size:12px;margin-top:20px}.board::before,.board::after{width:44px;height:18px;top:10px}footer{font-size:10px}}
+    @media(prefers-reduced-motion:reduce){.download{transition:none}.download:hover{transform:none}}
+  </style>
+</head>
+<body>
+  <main class="board">
+    <div class="topline"><span class="tag">TABLÓN DE DESCARGAS</span><span class="author">MADE BY JOSEP</span></div>
+    <img class="logo" src="assets/pionero-logo.png" width="788" height="292" alt="Pionero Funkin’, Colegio Cristiano Pionero">
+    <section class="sheet" aria-labelledby="title"><span class="pin" aria-hidden="true"></span>
+      <div class="version"><span class="dot" aria-hidden="true"></span><strong>ÚLTIMA VERSIÓN</strong><span id="version">0.8.5 · PILOTO</span></div>
+      <h1 id="title">El recreo se puso bueno.</h1>
+      <p class="intro">El mod del Colegio Cristiano Pionero.<br>Elige dónde vas a jugar y descarga la última versión.</p>
+      <div class="downloads">
+        <a class="download" id="windows" aria-disabled="true" aria-label="Descarga Windows en preparación">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="3" y="4" width="26" height="18" rx="1"/><path d="M16 22v6M10 28h12"/></svg>
+          <span><span class="platform">PC · WINDOWS</span><span class="format" id="windows-meta">ZIP · 227 MB</span></span><span class="arrow" aria-hidden="true">↓</span>
+        </a>
+        <a class="download android" id="android" aria-disabled="true" aria-label="Descarga Android en preparación">
+          <svg viewBox="0 0 32 32" aria-hidden="true"><rect x="7" y="2" width="18" height="28" rx="3"/><path d="M12 6h8M14 26h4"/></svg>
+          <span><span class="platform">CELU · ANDROID</span><span class="format" id="android-meta">APK · 199 MB</span></span><span class="arrow" aria-hidden="true">↓</span>
+        </a>
+      </div>
+      <p class="pending" id="status" role="status">Preparando los enlaces de descarga…</p>
+      <div class="included" aria-label="Contenido"><span>TUTORIAL</span><span>SEMANA 1 EN PROGRESO</span><span>UNA CANCIÓN SECRETA</span></div>
+      <div class="news"><b>Lo nuevo de esta versión</b><p id="notes">Nueva cinemática para la canción secreta, integrada antes de empezar la batalla.</p></div>
+      <details><summary>¿Cómo lo instalo?</summary><div class="instructions"><div><strong>En Windows</strong><p>Descarga el ZIP y extráelo completo. Dentro, abre <b>Pionero Funkin.exe</b>. Conserva todos los archivos juntos.</p></div><div><strong>En Android</strong><p>Descarga y abre el APK. Si ya tienes el mod, instálalo como actualización.</p></div></div></details>
+      <p class="ios">iPhone y iPad: esta versión todavía no es compatible.</p>
+    </section>
+    <p class="keep">GUARDA ESTE ENLACE.<br>Aquí siempre estará la última versión.</p>
+    <footer><p>Un mod de Josep, inspirado en el Colegio Cristiano Pionero.</p><p>Basado en Friday Night Funkin’ y Psych Engine.</p></footer>
+  </main>
+  <script type="module">
+    const status=document.querySelector('#status');
+    try {
+      const response=await fetch('latest.json',{cache:'no-store'});if(!response.ok)throw new Error('metadata unavailable');
+      const release=await response.json();document.querySelector('#version').textContent=`${release.version} · ${release.releaseLabel.toUpperCase()}`;
+      document.querySelector('#notes').textContent=release.notes;
+      let enabled=0;
+      for(const key of ['windows','android']){const d=release.downloads[key];const button=document.getElementById(key);document.getElementById(`${key}-meta`).textContent=`${key==='windows'?'ZIP':'APK'} · ${Math.round(d.bytes/1e6)} MB`;
+        if(release.published&&d.url){const url=new URL(d.url);if(url.protocol!=='https:')throw new Error('invalid download');button.href=url.href;button.removeAttribute('aria-disabled');button.setAttribute('aria-label',`Descargar ${key==='windows'?'Windows':'Android'}, versión ${release.version}`);enabled++;}}
+      status.textContent=enabled===2?'Listo para descargar. ¡A cantar, señor!':'Las descargas se están preparando. Vuelve en un momento.';
+    }catch{status.textContent='No se pudo comprobar la versión. Recarga la página en un momento.';}
+  </script>
+</body>
+</html>
