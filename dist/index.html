@@ -3,167 +3,147 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>Pionero Funkin’ · Descargas</title>
-  <meta name="description" content="Descarga Pionero Funkin’ para Windows o Android. Consulta la versión actual y las instrucciones de instalación.">
-  <meta name="theme-color" content="#0E2358">
-
-
-
+  <meta name="theme-color" content="#0b1024">
+  <meta name="description" content="Pionero Funkin’: un mod de Friday Night Funkin’ inspirado en el Colegio Cristiano Pionero. Conoce el piloto 0.8.5 y descárgalo para Windows o Android.">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Pionero Funkin’ · Juega el piloto">
+  <meta property="og:description" content="Ritmo, personajes y una historia propia. Descarga Pionero Funkin’ para Windows y Android.">
+  <meta property="og:image" content="https://munozestabridisj-web.github.io/pionero-funkin-descargas/assets/pionero-logo.png">
+  <meta property="og:url" content="https://munozestabridisj-web.github.io/pionero-funkin-descargas/">
+  <link rel="icon" href="assets/pionero-logo.png" type="image/png">
+  <title>Pionero Funkin’ · Juega el piloto</title>
   <style>
-@font-face{font-family:Barlow;src:url(assets/fonts/Barlow-Regular.ttf) format('truetype');font-weight:400;font-display:swap}
-@font-face{font-family:'Barlow Condensed';src:url(assets/fonts/BarlowCondensed-Bold.ttf) format('truetype');font-weight:700;font-display:swap}
-:root{--navy:#0E2358;--deep:#091A44;--blue:#1F4FB8;--red:#D7263D;--gold:#F5C21B;--white:#fff;--ink:#142342;--muted:#53617a;--line:#d6deeb;--surface:#f1f4fa;color-scheme:light}
-*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:24px}body{margin:0;font:18px/1.55 Barlow,'Segoe UI',sans-serif;background:var(--white);color:var(--ink)}
-::selection{background:var(--gold);color:var(--deep)}a{color:inherit;text-underline-offset:4px}:focus-visible{outline:3px solid var(--red);outline-offset:5px}img{display:block;max-width:100%;height:auto}.wrap{width:min(1120px,calc(100% - 48px));margin:auto}h1,h2,h3,p{margin-top:0}h1,h2,h3{line-height:1.15}h1,h2{font-family:'Barlow Condensed',Impact,sans-serif;font-weight:700}h1{font-size:clamp(56px,7.2vw,94px);letter-spacing:-.015em;text-transform:uppercase;line-height:.94;margin-bottom:20px}h2{font-size:clamp(34px,3.6vw,46px);margin-bottom:28px}h3{font-size:20px;margin-bottom:14px}.section-intro{color:var(--muted);max-width:60ch;margin-top:-12px;margin-bottom:30px}
-.nav{background:var(--deep);color:white;border-bottom:1px solid #ffffff26}.nav .wrap{display:flex;align-items:center;justify-content:space-between;gap:20px;min-height:64px}.wordmark{font:700 22px 'Barlow Condensed',sans-serif;letter-spacing:.025em;text-decoration:none}.nav-links{display:flex;gap:28px;font-size:14px}.nav-links a{text-decoration:none}.nav-links a:hover{color:var(--gold)}
-#inicio{background:var(--navy);color:white;padding:64px 0 60px;border-bottom:6px solid var(--gold)}#inicio .wrap{display:grid;grid-template-columns:1.05fr 1fr;align-items:center;gap:60px}.hero-copy{grid-column:1;grid-row:1}.logo{grid-column:2;grid-row:1;width:100%;max-width:560px;justify-self:end}.tagline{color:#d8e2f8;max-width:43ch;font-size:18px;margin-bottom:26px}.version-badge{display:inline-block;margin:0;background:var(--gold);color:var(--deep);padding:7px 13px;font-size:14px;font-weight:750;clip-path:polygon(0 0,calc(100% - 10px) 0,100% 10px,100% 100%,0 100%)}
-section{padding:64px 0}#descargas{padding-bottom:56px}.downloads{display:grid;grid-template-columns:1fr 1fr;gap:24px}.download-btn{display:grid;grid-template-columns:1fr auto;gap:4px 16px;background:var(--navy);color:white;text-decoration:none;padding:26px 28px;border-bottom:4px solid var(--gold);transition:background-color 120ms ease-out}.download-btn.android{background:var(--deep);border-color:var(--red)}.download-btn:hover{background:var(--blue)}.download-btn:active{background:#173b88}.platform{font:700 34px/1.1 'Barlow Condensed',sans-serif}.meta{grid-row:2;font-size:14px;color:#d8e2f8;font-variant-numeric:tabular-nums}.action{grid-column:2;grid-row:1 / 3;align-self:center;font-weight:700;color:var(--gold)}.action::after{content:' ↓';font-size:22px}.download-btn[aria-disabled=true]{background:#53617a;cursor:default}.status{font-size:14px;color:var(--muted);margin:12px 0 0}.status:empty{display:none}.download-note{font-size:14px;color:var(--muted);margin:16px 0 0}
-#novedades{background:var(--surface);padding:40px 0}#novedades .wrap{display:grid;grid-template-columns:1fr 1.5fr;gap:40px;align-items:start}#novedades h2{font-size:26px;margin:0}.news p{margin:0;max-width:65ch;border-left:4px solid var(--red);padding-left:22px}
-#capturas{padding:72px 0}.gallery{display:grid;grid-template-columns:1fr 1fr;gap:24px}.gallery figure{margin:0}.gallery-screenshots img{width:100%;aspect-ratio:16/9;object-fit:cover;background:var(--deep)}figcaption{font-size:14px;color:var(--muted);padding-top:10px}.character-title{margin-top:48px}.gallery-characters{background:var(--surface);padding:30px 30px 20px;gap:40px}.gallery-characters img{width:100%;height:290px;object-fit:contain}.gallery-characters figcaption{text-align:center;font-weight:700;color:var(--navy)}
-#instalacion{background:var(--navy);color:white;padding:56px 0}.steps{display:grid;grid-template-columns:1fr 1fr;gap:48px}.step h3{color:var(--gold);font-family:'Barlow Condensed',sans-serif;font-weight:700;font-size:30px}.step ol{padding-left:22px;margin:0;color:#d8e2f8}.step li{padding-left:6px;margin-bottom:10px}.step strong{color:white}.note{margin:28px 0 0;padding-top:18px;border-top:1px solid #ffffff30;font-size:14px;color:#d8e2f8}footer{padding:28px 0;background:var(--deep);color:#c5d0e8;font-size:13px}footer .wrap{display:flex;justify-content:space-between;gap:24px}footer p{margin:0}
-@media(max-width:760px){.wrap{width:calc(100% - 36px)}.nav .wrap{min-height:58px}.nav-links{gap:16px}.nav-links a:nth-child(2){display:none}#inicio{padding:38px 0 42px}#inicio .wrap{grid-template-columns:1fr;gap:32px}.logo{grid-column:1;grid-row:1;width:min(100%,440px);justify-self:center}.hero-copy{grid-row:2}.tagline{font-size:16px}section{padding:44px 0}.downloads,.steps{grid-template-columns:1fr;gap:16px}.download-btn{padding:22px}.platform{font-size:23px}#novedades .wrap{grid-template-columns:1fr;gap:18px}#capturas{padding:48px 0}.gallery-screenshots{grid-template-columns:1fr}.gallery-characters{padding:20px 12px;gap:12px}.gallery-characters img{height:200px}.gallery-characters figcaption{font-size:13px}.steps{gap:28px}footer .wrap{flex-direction:column;gap:8px}}
-@media(max-width:400px){.wordmark{font-size:14px}.nav-links{font-size:12px;gap:12px}.nav .wrap{gap:12px}}@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.download-btn{transition:none}}
-
-/* School colors have distinct jobs: blue for identity, gold for downloads,
-   red for Android and release updates, light blue for the game artwork. */
-#inicio{background:#16458c;border-bottom-color:var(--gold)}
-.tagline{font-size:20px;color:#edf3ff;line-height:1.5}
-.version-badge{font-family:Barlow,sans-serif;font-size:15px;letter-spacing:.01em}
-#descargas{background:#fff2bf}
-.download-btn{background:var(--white);color:var(--navy);border:0;border-left:6px solid var(--navy);padding:24px 26px}
-.download-btn .meta{color:var(--muted)}.download-btn .action{color:var(--navy)}
-.download-btn.android{background:#b91e35;border:0;border-left:6px solid #8b1024;color:white}
-.download-btn.android .meta{color:#ffe6eb}.download-btn.android .action{color:white}
-.download-btn:hover{background:#e8effa}.download-btn.android:hover{background:#9e172c}
-.download-btn:active{background:#d6e2f7}.download-btn.android:active{background:#841225}
-.download-btn:focus-visible{outline-color:var(--navy)}
-.download-note{color:#514b39}
-#novedades{background:#fff;border-bottom:1px solid #d8deea}
-#novedades h2{color:#b91e35;font-size:32px}
-.news p{font-size:18px;border-left-color:var(--gold)}
-#capturas{background:#e9f0f8}
-.gallery-screenshots figcaption{font-size:16px;color:#334c70}
-.gallery-characters{background:transparent;padding:0;gap:24px}
-.gallery-characters figure{padding:24px 18px 18px;background:#fff8df;border-bottom:4px solid var(--gold)}
-.gallery-characters figure:nth-child(2){background:#fbe8ec;border-bottom-color:var(--red)}
-.gallery-characters figcaption{font-family:'Barlow Condensed',sans-serif;font-size:24px;font-weight:700}
-#instalacion{background:var(--navy)}
-.step ol{font-size:18px;line-height:1.6}.step li::marker{color:var(--gold);font-weight:700}
-.nav-links{font-size:16px}.section-intro{font-size:18px}.meta{font-size:16px}
-@media(max-width:760px){.tagline{font-size:18px}.platform{font-size:30px}.gallery-characters figcaption{font-size:20px}.gallery-characters figure{padding:16px 8px}.nav-links{font-size:14px}}
-@media(max-width:400px){.wordmark{font-size:18px}.nav-links{font-size:13px;gap:12px}.nav .wrap{gap:10px}.action{font-size:16px}.download-btn{padding:22px 18px}}
-
-</style>
+    @font-face{font-family:Barlow;src:url('assets/fonts/Barlow-Regular.ttf') format('truetype');font-weight:400;font-display:swap}
+    @font-face{font-family:'Barlow Condensed';src:url('assets/fonts/BarlowCondensed-Bold.ttf') format('truetype');font-weight:700;font-display:swap}
+    @font-face{font-family:VCR;src:url('assets/vcr.ttf') format('truetype');font-display:swap}
+    :root{color-scheme:dark;caret-color:#f8d747;--night:#0b1024;--panel:#111a36;--panel-2:#182447;--paper:#f7f5ec;--ink:#0e1731;--muted:#b9c5de;--rule:#344365;--yellow:#f8d747;--red:#ec3454;--cyan:#7de8ee}
+    *{box-sizing:border-box}
+    html{scroll-behavior:smooth;scroll-padding-top:82px}
+    body{margin:0;background:var(--night);color:var(--paper);font:18px/1.55 Barlow,'Segoe UI',sans-serif;overflow-x:hidden}
+    ::selection{background:var(--yellow);color:var(--ink)}
+    ::-webkit-scrollbar{width:11px}::-webkit-scrollbar-track{background:var(--night)}::-webkit-scrollbar-thumb{background:var(--rule)}
+    a{color:inherit;text-underline-offset:4px;text-decoration-thickness:1px}
+    :focus-visible{outline:3px solid var(--yellow);outline-offset:4px}
+    img{display:block;max-width:100%}button{font:inherit}
+    h1,h2,h3,p,figure{margin:0}h1,h2,h3{font-family:'Barlow Condensed',Impact,sans-serif;line-height:.98;text-transform:uppercase}
+    .wrap{width:min(1180px,calc(100% - 48px));margin-inline:auto}
+    .skip{position:absolute;left:16px;top:-70px;z-index:20;padding:10px 16px;background:var(--yellow);color:var(--ink)}.skip:focus{top:12px}
+    .topbar{position:relative;z-index:3;background:var(--night);border-bottom:1px solid var(--rule)}
+    .topbar-inner{min-height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}
+    .brand{font:700 25px/.9 'Barlow Condensed',Impact,sans-serif;letter-spacing:.02em;text-decoration:none;white-space:nowrap}
+    .brand span{color:var(--yellow)}
+    .navlinks{display:flex;align-items:center;gap:28px;font:16px 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.04em}
+    .navlinks a{text-decoration:none;transition:color .16s ease}.navlinks a:hover{color:var(--cyan)}.navlinks a:active{color:var(--yellow)}
+    .navlinks .nav-download{background:var(--yellow);color:var(--ink);padding:10px 16px;font-weight:700}.navlinks .nav-download:hover,.navlinks .nav-download:active{color:var(--ink);background:var(--cyan)}
+    .hero{position:relative;isolation:isolate;overflow:hidden;background:var(--night);padding:64px 0 54px}
+    .hero::before{content:"";position:absolute;inset:0;z-index:-2;background:linear-gradient(90deg,rgba(11,16,36,.97) 0%,rgba(11,16,36,.86) 48%,rgba(11,16,36,.42) 100%),url('assets/capturas/batalla.png') center 43%/cover no-repeat;opacity:.72}
+    .hero::after{content:"";position:absolute;inset:0;z-index:-1;background:repeating-linear-gradient(0deg,transparent 0 35px,rgba(255,255,255,.025) 36px),repeating-linear-gradient(90deg,transparent 0 35px,rgba(255,255,255,.025) 36px);pointer-events:none}
+    .hero-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(380px,.96fr);gap:50px;align-items:center;min-height:545px}
+    .eyeline{display:flex;align-items:center;gap:12px;color:var(--cyan);font:16px VCR,monospace;text-transform:uppercase}
+    .eyeline::before{content:"";width:9px;height:9px;background:var(--red);box-shadow:0 0 0 4px rgba(236,52,84,.2)}
+    .hero h1{font-size:clamp(72px,10vw,154px);letter-spacing:-.035em;margin:24px 0 22px;max-width:6ch;text-wrap:balance}
+    .hero h1 span{color:var(--yellow)}
+    .hero-lede{font-size:clamp(19px,2vw,23px);line-height:1.4;max-width:30ch;color:#e4ebf9}
+    .hero-actions{display:flex;flex-wrap:wrap;gap:13px;margin-top:32px}
+    .button{display:inline-flex;align-items:center;justify-content:center;gap:16px;min-height:52px;padding:12px 20px;text-decoration:none;font:700 19px 'Barlow Condensed',sans-serif;text-transform:uppercase;letter-spacing:.03em;transition:background-color .16s ease,color .16s ease,transform .12s ease}
+    .button:active{transform:translateY(2px)}.button-primary{background:var(--yellow);color:var(--ink)}.button-primary:hover{background:var(--cyan)}.button-ghost{border:1px solid #a6bad5;color:var(--paper)}.button-ghost:hover{background:var(--paper);color:var(--ink)}
+    .stage{position:relative;align-self:stretch;display:flex;align-items:center;justify-content:center;min-width:0}
+    .stage-frame{position:relative;width:100%;max-width:585px;padding:25px 16px 16px;background:var(--panel);border:1px solid #8095ba;transform:rotate(2deg)}
+    .stage-frame::before{content:"PIONERO / SELECT";position:absolute;top:5px;left:15px;color:var(--cyan);font:11px VCR,monospace;letter-spacing:.1em}
+    .stage-frame img{width:100%;height:auto;aspect-ratio:2.55;object-fit:contain;background:#f1e8d5;border:4px solid var(--night)}
+    .stage-stamp{position:absolute;right:-18px;bottom:-22px;background:var(--red);color:white;padding:12px 16px;transform:rotate(-6deg);font:19px VCR,monospace;text-transform:uppercase}
+    .hero-foot{display:flex;justify-content:space-between;align-items:center;gap:18px;padding-top:22px;border-top:1px solid #7685a37d;color:var(--muted);font:13px VCR,monospace;text-transform:uppercase}
+    .arrows{color:var(--yellow);letter-spacing:.55em;white-space:nowrap;font-size:20px}
+    section{scroll-margin-top:20px}.section-head{display:flex;align-items:end;justify-content:space-between;gap:24px;margin-bottom:30px}.section-head h2{font-size:clamp(44px,6vw,76px);letter-spacing:-.02em}.section-head p{max-width:35ch;color:var(--muted)}
+    .kicker{font:14px VCR,monospace;color:var(--red);text-transform:uppercase;display:block;margin-bottom:16px}
+    .download-section{padding:88px 0 96px;background:var(--paper);color:var(--ink)}
+    .download-section .section-head p{color:#3e4c68}.download-section .kicker{color:#ad1733}
+    .download-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .download-card{display:flex;flex-direction:column;justify-content:space-between;min-height:244px;padding:25px 28px 28px;background:var(--night);color:var(--paper);text-decoration:none;border-top:6px solid var(--yellow);transition:background-color .16s ease,transform .12s ease}
+    .download-card.android{border-color:var(--red)}.download-card:hover{background:var(--panel-2)}.download-card:active{transform:translateY(3px)}.download-card[aria-disabled="true"]{background:#44506b;cursor:not-allowed}.download-card[aria-disabled="true"]:active{transform:none}
+    .download-top{display:flex;align-items:center;justify-content:space-between;gap:16px}.platform-icon{display:grid;place-items:center;width:53px;height:53px;border:1px solid #8794b2;font:27px VCR,monospace;color:var(--yellow)}.android .platform-icon{color:#ff667f}
+    .download-number{font:14px VCR,monospace;color:var(--muted)}.download-card h3{font-size:clamp(36px,4.2vw,55px);margin-top:24px}
+    .download-bottom{display:flex;justify-content:space-between;align-items:end;gap:12px}.download-meta{font-size:15px;color:var(--muted);font-variant-numeric:tabular-nums}.download-action{font:700 18px 'Barlow Condensed',sans-serif;text-transform:uppercase;color:var(--yellow)}.android .download-action{color:#ff7088}.download-action::after{content:" ↗";font-size:22px}.download-card[aria-disabled="true"] .download-action::after{content:""}
+    .download-footer{display:flex;flex-wrap:wrap;justify-content:space-between;gap:12px;margin-top:18px;color:#45516b;font-size:15px}.download-footer p{margin:0}.download-footer a{font-weight:700}.status{width:100%;color:#ad1733}.status:empty{display:none}
+    .content-section{padding:100px 0;background:var(--night)}
+    .content-grid{display:grid;grid-template-columns:.76fr 1.24fr;gap:60px;align-items:start}.content-copy h2{font-size:clamp(48px,6vw,78px);margin-bottom:23px}.content-copy p{color:var(--muted);max-width:35ch}.release-note{margin-top:30px;padding:20px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}.release-note small{display:block;color:var(--cyan);font:13px VCR,monospace;margin-bottom:10px}.release-note p{color:var(--paper)}
+    .track-list{list-style:none;margin:0;padding:0;counter-reset:track}.track-list li{counter-increment:track;display:grid;grid-template-columns:42px 1fr auto;align-items:center;gap:16px;padding:18px 0;border-bottom:1px solid var(--rule)}.track-list li:first-child{border-top:1px solid var(--rule)}.track-list li::before{content:counter(track,decimal-leading-zero);font:15px VCR,monospace;color:var(--yellow)}.track-list strong{font:700 clamp(23px,2.5vw,32px) 'Barlow Condensed',sans-serif;text-transform:uppercase}.track-list span{color:var(--muted);font:13px VCR,monospace}
+    .gallery-section{padding:95px 0;background:#161e39}.gallery-section .kicker{color:var(--cyan)}.gallery-grid{display:grid;grid-template-columns:1.2fr .8fr;gap:18px}.shot{position:relative;overflow:hidden;background:var(--night);border:1px solid #536384}.shot img{width:100%;height:100%;object-fit:cover;aspect-ratio:16/9;transition:transform .28s ease}.shot:hover img{transform:scale(1.025)}.shot figcaption{position:absolute;left:0;bottom:0;background:var(--night);padding:9px 15px;font:15px VCR,monospace;color:var(--paper)}
+    .character-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px;margin-top:18px}.character{display:grid;grid-template-columns:160px 1fr;align-items:center;gap:20px;min-height:190px;padding:16px;background:var(--paper);color:var(--ink)}.character:nth-child(2){background:#f5dbe1}.character img{width:100%;height:160px;object-fit:contain}.character figcaption{font:700 clamp(23px,2.8vw,35px)/1 'Barlow Condensed',sans-serif;text-transform:uppercase}.character small{display:block;margin-top:10px;font:13px VCR,monospace;color:#59647e}
+    .install-section{padding:100px 0;background:var(--night)}.install-section .section-head{align-items:center}.steps{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}.step{padding:27px 29px 31px;background:var(--panel);border-top:4px solid var(--cyan)}.step.android{border-color:var(--red)}.step h3{font-size:38px;margin-bottom:18px}.step ol{margin:0;padding-left:24px}.step li{padding-left:6px;margin-top:12px;color:#d7e1f3}.step li::marker{color:var(--yellow);font-family:VCR}.step strong{color:white}.install-note{margin-top:23px;color:var(--muted);font-size:15px}
+    footer{border-top:1px solid var(--rule);padding:28px 0 38px;background:#080c1d;color:var(--muted);font-size:14px}.footer-inner{display:flex;justify-content:space-between;gap:22px}.footer-inner p{max-width:50ch}.footer-inner a:hover{color:var(--yellow)}
+    @media(max-width:900px){.hero-grid{grid-template-columns:1fr;gap:35px;min-height:0}.hero h1{max-width:none}.stage{max-width:610px}.content-grid{grid-template-columns:1fr;gap:38px}.content-copy p{max-width:55ch}}
+    @media(max-width:680px){.wrap{width:min(100% - 32px,1180px)}.topbar-inner{min-height:64px}.brand{font-size:20px}.navlinks{gap:10px;font-size:14px}.navlinks a:not(.nav-download){display:none}.navlinks .nav-download{padding:9px 12px}.hero{padding:44px 0 30px}.hero::before{background-position:58% center}.hero h1{font-size:clamp(64px,16vw,100px);margin:20px 0}.hero-lede{font-size:19px}.stage-frame{transform:rotate(1deg)}.stage-stamp{right:-8px;bottom:-16px;font-size:14px}.hero-foot{margin-top:30px;font-size:11px}.arrows{font-size:16px}.download-section,.content-section,.gallery-section,.install-section{padding:68px 0}.section-head{display:block}.section-head h2{font-size:54px;margin-bottom:12px}.download-grid,.gallery-grid,.character-grid,.steps{grid-template-columns:1fr}.download-card{min-height:205px}.shot img{height:auto}.character{grid-template-columns:130px 1fr;min-height:155px}.character img{height:130px}.track-list li{grid-template-columns:32px 1fr auto;gap:9px}.track-list strong{font-size:23px}.track-list span{font-size:11px}.footer-inner{flex-direction:column}}
+    @media(max-width:380px){.hero h1{font-size:60px}.hero-foot .arrows{display:none}.section-head h2{font-size:47px}.character{grid-template-columns:110px 1fr;gap:9px}.character img{height:115px}.character figcaption{font-size:23px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.button,.navlinks a,.download-card,.shot img{transition:none}.shot:hover img{transform:none}}
+  </style>
 </head>
-<body><nav class="nav" aria-label="Principal"><div class="wrap"><a class="wordmark" href="#inicio">PIONERO FUNKIN’</a><div class="nav-links"><a href="#descargas">Descargas</a><a href="#capturas">El juego</a><a href="#instalacion">Instalación</a></div></div></nav>
-
-
-  <header id="inicio">
-    <div class="wrap">
-      <img class="logo" src="assets/pionero-logo.png" alt="Pionero Funkin’">
-      <div class="hero-copy"><h1>Pionero<br>Funkin’</h1>
-      <p class="tagline">El mod de Friday Night Funkin’ inspirado en el Colegio Cristiano Pionero.</p>
-      <p class="version-badge">Versión <span id="version">0.8.5 · Piloto</span></p></div>
+<body>
+  <a class="skip" href="#contenido">Ir al contenido</a>
+  <nav class="topbar" aria-label="Principal"><div class="wrap topbar-inner">
+    <a class="brand" href="#inicio">PIONERO <span>FUNKIN’</span></a>
+    <div class="navlinks"><a href="#juego">El juego</a><a href="#capturas">Galería</a><a href="#instalacion">Instalación</a><a class="nav-download" href="#descargas">Descargar ↗</a></div>
+  </div></nav>
+  <header class="hero" id="inicio"><div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <p class="eyeline">Mod de Friday Night Funkin’ / <span id="hero-version">v0.8.5</span></p>
+        <h1>PIONERO<br><span>FUNKIN’</span></h1>
+        <p class="hero-lede">El ritmo del Colegio Cristiano Pionero llega a Friday Night Funkin’. Conoce el piloto y entra a la batalla.</p>
+        <div class="hero-actions"><a class="button button-primary" href="#descargas">Descargar el piloto <span aria-hidden="true">↓</span></a><a class="button button-ghost" href="#capturas">Ver el juego <span aria-hidden="true">↗</span></a></div>
+      </div>
+      <div class="stage"><div class="stage-frame"><img src="assets/pionero-logo.png" width="1200" height="480" alt="Logo ilustrado de Pionero Funkin’"><span class="stage-stamp" id="stage-version">Piloto / 0.8.5</span></div></div>
     </div>
-  </header>
-
-  <main>
-
-
-    <section id="descargas">
-      <div class="wrap">
-        <h2>Elige dónde jugar</h2><p class="section-intro">Descarga la versión para tu equipo e instala el mod.</p>
-        <div class="downloads">
-          <a id="windows" class="download-btn windows" href="https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Windows.zip">
-            <span class="platform">Windows</span>
-            <span class="meta" id="windows-meta">ZIP · 227 MB</span>
-            <span class="action">Descargar</span>
-          </a>
-          <a id="android" class="download-btn android" href="https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Android.apk">
-            <span class="platform">Android</span>
-            <span class="meta" id="android-meta">APK · 199 MB</span>
-            <span class="action">Descargar</span>
-          </a>
-        </div><p class="status" id="status" role="status"></p><p class="download-note">Windows: extrae el ZIP completo. Android: instala el APK.</p>
+    <div class="hero-foot"><span>Creado por Josep · Hecho con Psych Engine</span><span class="arrows" aria-hidden="true">← ↓ ↑ →</span></div>
+  </div></header>
+  <main id="contenido">
+    <section class="download-section" id="descargas"><div class="wrap">
+      <span class="kicker">01 / Listo para jugar</span>
+      <div class="section-head"><h2>ELIGE TU PLATAFORMA</h2><p>La versión <strong id="version">0.8.5 · Piloto</strong> está disponible para Windows y Android.</p></div>
+      <div class="download-grid">
+        <a class="download-card windows" id="windows" href="https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Windows.zip"><span class="download-top"><span class="platform-icon" aria-hidden="true">⊞</span><span class="download-number">01 / PC</span></span><h3>WINDOWS</h3><span class="download-bottom"><span class="download-meta" id="windows-meta">ZIP · 227 MB</span><span class="download-action">Descargar</span></span></a>
+        <a class="download-card android" id="android" href="https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Android.apk"><span class="download-top"><span class="platform-icon" aria-hidden="true">◈</span><span class="download-number">02 / MÓVIL</span></span><h3>ANDROID</h3><span class="download-bottom"><span class="download-meta" id="android-meta">APK · 199 MB</span><span class="download-action">Descargar</span></span></a>
       </div>
-    </section>
-    <section id="novedades">
-      <div class="wrap">
-        <h2>En esta versión</h2>
-        <div class="news">
-          <p id="notes">Nueva cinemática para la canción secreta, integrada antes de empezar la batalla.</p>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="capturas">
-      <div class="wrap">
-        <h2>Capturas y personajes</h2>
-
-        <p class="section-intro">El menú, una de las batallas y los personajes del mod.</p>
-        <div class="gallery gallery-screenshots">
-          <figure><img src="assets/capturas/menu.jpg" width="1280" height="720" alt="Menú de Pionero Funkin’ con Historia, Juego libre, Créditos y Ajustes" loading="lazy"><figcaption>Menú principal</figcaption></figure>
-          <figure><img src="assets/capturas/batalla.png" width="1808" height="1017" alt="Johnny en el escenario rojo de la canción secreta" loading="lazy"><figcaption>Batalla de la canción secreta</figcaption></figure>
-        </div>
-        <h3 class="character-title">Personajes</h3>
-        <div class="gallery gallery-characters">
-          <figure><img src="assets/capturas/boyfriend.png" alt="Boyfriend con el uniforme del colegio y su micrófono" loading="lazy"><figcaption>Boyfriend</figcaption></figure>
-          <figure><img src="assets/capturas/johnny.png" alt="Johnny en su versión corrupta" loading="lazy"><figcaption>Johnny · versión corrupta</figcaption></figure>
-        </div>
-      </div>
-    </section>
-
-
-    <section id="instalacion">
-      <div class="wrap">
-        <h2>Cómo instalarlo</h2>
-        <div class="steps">
-          <div class="step windows">
-            <h3>Windows</h3>
-            <ol><li>Descarga el archivo ZIP.</li><li>Extrae todo su contenido en una carpeta.</li><li>Abre <strong>Pionero Funkin.exe</strong>. Conserva los archivos juntos.</li></ol>
-          </div>
-          <div class="step android">
-            <h3>Android</h3>
-            <ol><li>Descarga el archivo APK y ábrelo.</li><li>Si Android lo solicita, permite la instalación desde la aplicación que usaste para abrirlo.</li><li>Instala el mod. Si ya lo tienes, elige actualizar.</li></ol>
-          </div>
-        </div>
-        <p class="note">Por ahora no hay versión para iPhone o iPad.</p>
-      </div>
-    </section>
-
+      <div class="download-footer"><p>Descargas directas desde <a href="https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest">GitHub Releases</a>.</p><p>Windows: extrae el ZIP · Android: instala el APK</p><p class="status" id="status" role="status" aria-live="polite"></p></div>
+    </div></section>
+    <section class="content-section" id="juego"><div class="wrap content-grid">
+      <div class="content-copy"><span class="kicker">02 / El piloto</span><h2>UNA HISTORIA<br>CON SU PROPIO RITMO</h2><p>Un mod inspirado en el Colegio Cristiano Pionero, con personajes propios y una canción secreta que cambia de tono la partida.</p><div class="release-note"><small>EN ESTA VERSIÓN</small><p id="notes">Nueva cinemática para la canción secreta, integrada antes de empezar la batalla.</p></div></div>
+      <div><ol class="track-list" aria-label="Canciones del piloto"><li><strong>Tutorial</strong><span>01</span></li><li><strong>Para andar con Jesús</strong><span>02</span></li><li><strong>Dad loor al Señor</strong><span>03</span></li><li><strong>Trojoni</strong><span>04</span></li></ol></div>
+    </div></section>
+    <section class="gallery-section" id="capturas"><div class="wrap"><span class="kicker">03 / Desde el juego</span><div class="section-head"><h2>ASÍ SE VE LA BATALLA</h2><p>Un vistazo al menú, el escenario y los personajes del piloto.</p></div>
+      <div class="gallery-grid"><figure class="shot"><img src="assets/capturas/menu.jpg" width="1280" height="720" alt="Menú principal de Pionero Funkin’" loading="lazy"><figcaption>01 / Menú principal</figcaption></figure><figure class="shot"><img src="assets/capturas/batalla.png" width="1808" height="1017" alt="Batalla de la canción secreta en un escenario rojo" loading="lazy"><figcaption>02 / Canción secreta</figcaption></figure></div>
+      <div class="character-grid"><figure class="character"><img src="assets/capturas/boyfriend.png" alt="Boyfriend con uniforme y micrófono" loading="lazy"><figcaption>Boyfriend<small>En uniforme</small></figcaption></figure><figure class="character"><img src="assets/capturas/johnny.png" alt="Johnny en su versión corrupta" loading="lazy"><figcaption>Johnny<small>Versión corrupta</small></figcaption></figure></div>
+    </div></section>
+    <section class="install-section" id="instalacion"><div class="wrap"><span class="kicker">04 / Primeros pasos</span><div class="section-head"><h2>DESCARGA. INSTALA. JUEGA.</h2><p>Un par de pasos y estás dentro.</p></div>
+      <div class="steps"><div class="step"><h3>EN WINDOWS</h3><ol><li>Descarga el archivo ZIP.</li><li>Extrae todo su contenido en una carpeta.</li><li>Abre <strong>Pionero Funkin.exe</strong> y conserva los archivos juntos.</li></ol></div><div class="step android"><h3>EN ANDROID</h3><ol><li>Descarga y abre el archivo APK.</li><li>Si Android lo solicita, permite la instalación desde la aplicación con la que lo abriste.</li><li>Instala el mod. Si ya lo tienes, elige actualizar.</li></ol></div></div>
+      <p class="install-note">Por ahora no hay versión para iPhone o iPad.</p>
+    </div></section>
   </main>
-
-
-  <footer>
-    <div class="wrap">
-      <p>Un mod de Josep, inspirado en el Colegio Cristiano Pionero.</p>
-      <p>Basado en Friday Night Funkin’ y Psych Engine.</p>
-    </div>
-  </footer>
-
-<script type="module">
+  <footer><div class="wrap footer-inner"><p>Un mod de Josep, inspirado en el Colegio Cristiano Pionero. Basado en Friday Night Funkin’ y Psych Engine.</p><p><a href="https://github.com/munozestabridisj-web/pionero-funkin-descargas">Ver en GitHub ↗</a></p></div></footer>
+  <script type="module">
     const status = document.querySelector('#status');
     try {
-      const response = await fetch('latest.json', { cache: 'no-store' });
-      if (!response.ok) throw new Error('No se pudo consultar la versión');
+      const response = await fetch('latest.json', {cache:'no-store'});
+      if (!response.ok) throw new Error('Versión no disponible');
       const release = await response.json();
       document.querySelector('#version').textContent = `${release.version} · ${release.releaseLabel}`;
+      document.querySelector('#hero-version').textContent = `v${release.version}`;
+      document.querySelector('#stage-version').textContent = `${release.releaseLabel} / ${release.version}`;
       document.querySelector('#notes').textContent = release.notes;
-      for (const key of ['windows', 'android']) {
+      for (const key of ['windows','android']) {
         const download = release.downloads[key];
         const link = document.getElementById(key);
         document.getElementById(`${key}-meta`).textContent = `${key === 'windows' ? 'ZIP' : 'APK'} · ${Math.round(download.bytes / 1e6)} MB`;
         if (release.published && download.url) {
           const url = new URL(download.url);
-          if (url.protocol !== 'https:') throw new Error('Enlace no válido');
+          if (url.protocol !== 'https:' || url.hostname !== 'github.com') throw new Error('Enlace no válido');
           link.href = url.href;
           link.removeAttribute('aria-disabled');
-          link.querySelector('.action').textContent = 'Descargar';
+          link.querySelector('.download-action').textContent = 'Descargar';
         } else {
           link.removeAttribute('href');
-          link.setAttribute('aria-disabled', 'true');
-          link.querySelector('.action').textContent = 'Próximamente';
+          link.setAttribute('aria-disabled','true');
+          link.querySelector('.download-action').textContent = 'Próximamente';
           status.textContent = 'Las descargas se están preparando.';
         }
       }
