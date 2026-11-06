@@ -1,18 +1,18 @@
 {
-  "version": "0.8.5",
+  "version": "0.8.9.1",
   "releaseLabel": "Piloto",
   "published": true,
-  "date": "2026-10-31",
-  "notes": "Nueva cinemática para la canción secreta, integrada antes de empezar la batalla.",
+  "date": "2026-11-05",
+  "notes": "Semana 1 con Verde/Plateado, voces pulidas y derrota escolar. El drenaje de Johnny se detiene al 1% de vida.",
   "downloads": {
     "windows": {
-      "bytes": 226896774,
-      "sha256": "6fa6e5d76c0bbb526d45332a9ab010cc40a9eacdbca9b32b71b727528c285930",
+      "bytes": 248685126,
+      "sha256": "de71f523b90b9a70cda417c10cc88aaa9b31cba8a6108ec43fd0daf7e008cc55",
       "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Windows.zip"
     },
     "android": {
-      "bytes": 199056810,
-      "sha256": "751db1a20d43900c1af76eefdab4cf614a00b59de020695c7575d06577563310",
+      "bytes": 222279565,
+      "sha256": "010bd670244945467a5cecdc3a7542f3380c3d6c6c5089fd119c724a2d11ffd2",
       "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Android.apk"
     }
   }
