@@ -58,7 +58,7 @@
     .kicker{font:14px VCR,monospace;color:var(--red);text-transform:uppercase;display:block;margin-bottom:16px}
     .download-section{padding:88px 0 96px;background:var(--paper);color:var(--ink)}
     .download-section .section-head p{color:#3e4c68}.download-section .kicker{color:#ad1733}
-    .download-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:16px}
+    .download-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:16px}
     .download-card{display:flex;flex-direction:column;justify-content:space-between;min-height:244px;padding:25px 28px 28px;background:var(--night);color:var(--paper);text-decoration:none;border-top:6px solid var(--yellow);transition:background-color .16s ease,transform .12s ease}
     .download-card.android{border-color:var(--red)}.download-card:hover{background:var(--panel-2)}.download-card:active{transform:translateY(3px)}.download-card[aria-disabled="true"]{background:#44506b;cursor:not-allowed}.download-card[aria-disabled="true"]:active{transform:none}
     .download-top{display:flex;align-items:center;justify-content:space-between;gap:16px}.platform-icon{display:grid;place-items:center;width:53px;height:53px;border:1px solid #8794b2;font:27px VCR,monospace;color:var(--yellow)}.android .platform-icon{color:#ff667f}
@@ -103,6 +103,7 @@
       <div class="download-grid">
         <a class="download-card windows" id="windows" href="https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Windows.zip"><span class="download-top"><span class="platform-icon" aria-hidden="true">⊞</span><span class="download-number">01 / PC</span></span><h3>WINDOWS</h3><span class="download-bottom"><span class="download-meta" id="windows-meta">ZIP · 249 MB</span><span class="download-action">Descargar</span></span></a>
         <a class="download-card android" id="android" href="https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Android.apk"><span class="download-top"><span class="platform-icon" aria-hidden="true">◈</span><span class="download-number">02 / MÓVIL</span></span><h3>ANDROID</h3><span class="download-bottom"><span class="download-meta" id="android-meta">APK · 222 MB</span><span class="download-action">Descargar</span></span></a>
+        <a class="download-card ios" id="ios" href="https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.5-ios/Pionero-Funkin-iOS.ipa"><span class="download-top"><span class="platform-icon" aria-hidden="true">▯</span><span class="download-number">03 / BETA</span></span><h3>IPHONE</h3><span class="download-bottom"><span class="download-meta">IPA · 483 MB · 0.8.9.5</span><span class="download-action">Descargar</span></span></a>
       </div>
       <div class="download-footer"><p>Descargas directas desde <a href="https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest">GitHub Releases</a>.</p><p>Windows: extrae el ZIP · Android: instala el APK</p><p class="status" id="status" role="status" aria-live="polite"></p></div>
     </div></section>
@@ -116,7 +117,7 @@
     </div></section>
     <section class="install-section" id="instalacion"><div class="wrap"><span class="kicker">04 / Primeros pasos</span><div class="section-head"><h2>DESCARGA. INSTALA. JUEGA.</h2><p>Un par de pasos y estás dentro.</p></div>
       <div class="steps"><div class="step"><h3>EN WINDOWS</h3><ol><li>Descarga el archivo ZIP.</li><li>Extrae todo su contenido en una carpeta.</li><li>Abre <strong>Pionero Funkin.exe</strong> y conserva los archivos juntos.</li></ol></div><div class="step android"><h3>EN ANDROID</h3><ol><li>Descarga y abre el archivo APK.</li><li>Si Android lo solicita, permite la instalación desde la aplicación con la que lo abriste.</li><li>Instala el mod. Si ya lo tienes, elige actualizar.</li></ol></div></div>
-      <p class="install-note">Por ahora no hay versión para iPhone o iPad.</p>
+      <p class="install-note">La beta de iPhone requiere iOS 13.6 o posterior. Para firmar e instalar el IPA, configura <a href="https://faq.altstore.io/altstore-classic/how-to-install-altstore-windows">AltStore Classic</a> en el iPhone con ayuda de una computadora y abre el IPA desde Mis apps en AltStore. Prueba en iPhone pendiente.</p>
     </div></section>
   </main>
   <footer><div class="wrap footer-inner"><p>Un mod de Josep, inspirado en el Colegio Cristiano Pionero. Basado en Friday Night Funkin’ y Psych Engine.</p><p><a href="https://github.com/munozestabridisj-web/pionero-funkin-descargas">Ver en GitHub ↗</a></p></div></footer>

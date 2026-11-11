@@ -14,6 +14,14 @@
       "bytes": 222279565,
       "sha256": "010bd670244945467a5cecdc3a7542f3380c3d6c6c5089fd119c724a2d11ffd2",
       "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Android.apk"
+    },
+    "ios": {
+      "version": "0.8.9.5",
+      "bytes": 482680996,
+      "sha256": "220f87d2693df30e50edbd1e3c05b055744cd052814b4a1373da62bf53e42a6f",
+      "minimum_ios": "13.6",
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.5-ios/Pionero-Funkin-iOS.ipa",
+      "prerelease": true
     }
   }
 }
