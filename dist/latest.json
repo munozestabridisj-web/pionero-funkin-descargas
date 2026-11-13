@@ -1,15 +1,15 @@
 {
-  "version": "0.8.9.1",
+  "version": "0.8.9.6",
   "releaseLabel": "Piloto",
   "published": true,
-  "date": "2026-11-05",
-  "notes": "Semana 1 con Verde/Plateado, voces pulidas y derrota escolar. El drenaje de Johnny se detiene al 1% de vida.",
+  "date": "2026-11-12",
+  "notes": "Windows 0.8.9.6 incorpora el menú recolocado y los retratos actuales. BF conserva sus bip-bop originales y Johnny el sonido de letras. Incluye ajustes a la derrota de Trojoni. La nueva intro sigue en desarrollo.",
   "downloads": {
     "windows": {
-      "bytes": 248685126,
-      "sha256": "de71f523b90b9a70cda417c10cc88aaa9b31cba8a6108ec43fd0daf7e008cc55",
-      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Windows.zip",
-      "version": "0.8.9.1"
+      "version": "0.8.9.6",
+      "bytes": 249150866,
+      "sha256": "ec5cc4147c3a6608da5056e65c9525df672de156996c15706e7661972e3c426a",
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.6/Pionero-Funkin-Windows.zip"
     },
     "android": {
       "bytes": 222279565,
