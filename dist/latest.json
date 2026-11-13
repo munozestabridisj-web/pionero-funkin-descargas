@@ -8,12 +8,14 @@
     "windows": {
       "bytes": 248685126,
       "sha256": "de71f523b90b9a70cda417c10cc88aaa9b31cba8a6108ec43fd0daf7e008cc55",
-      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Windows.zip"
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Windows.zip",
+      "version": "0.8.9.1"
     },
     "android": {
       "bytes": 222279565,
       "sha256": "010bd670244945467a5cecdc3a7542f3380c3d6c6c5089fd119c724a2d11ffd2",
-      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/latest/download/Pionero-Funkin-Android.apk"
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.1/Pionero-Funkin-Android.apk",
+      "version": "0.8.9.1"
     },
     "ios": {
       "version": "0.8.9.5",
