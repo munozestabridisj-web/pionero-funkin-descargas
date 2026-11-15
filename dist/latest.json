@@ -1,15 +1,15 @@
 {
-  "version": "0.8.9.6",
+  "version": "0.8.9.9",
   "releaseLabel": "Piloto",
   "published": true,
-  "date": "2026-11-13",
-  "notes": "Android 0.8.9.7 incorpora los retratos actuales, los bip-bop originales de BF y el sonido de letras de Johnny. Trojoni incluye pantalla azul y los nuevos sonidos de fallo y espera, y se encuentra en Juego libre. Windows continúa en 0.8.9.6 e iPhone en la beta 0.8.9.5. La nueva intro y los arreglos musicales de prueba todavía no están integrados.",
+  "date": "2026-11-14",
+  "notes": "Windows 0.8.9.9 incluye un chart más variado para El color verde / Plateado en Normal y Hard, la camisa corregida de BF en Trojoni y los sonidos de fallo y espera elegidos para su pantalla azul. Android continúa en 0.8.9.7 e iPhone en la beta 0.8.9.5. La nueva intro y los arreglos musicales de prueba todavía no están integrados.",
   "downloads": {
     "windows": {
-      "version": "0.8.9.6",
-      "bytes": 249150866,
-      "sha256": "ec5cc4147c3a6608da5056e65c9525df672de156996c15706e7661972e3c426a",
-      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.6/Pionero-Funkin-Windows.zip"
+      "version": "0.8.9.9",
+      "bytes": 249510687,
+      "sha256": "2fa782e44ca8ae4486c0c9e497d41a300ef7e40196d1c35ffbff2486df791dc3",
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.9/Pionero-Funkin-Windows.zip"
     },
     "android": {
       "version": "0.8.9.7",
