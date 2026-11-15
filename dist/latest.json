@@ -3,7 +3,7 @@
   "releaseLabel": "Piloto",
   "published": true,
   "date": "2026-11-14",
-  "notes": "Windows 0.8.9.9 incluye un chart más variado para El color verde / Plateado en Normal y Hard, la camisa corregida de BF en Trojoni y los sonidos de fallo y espera elegidos para su pantalla azul. Android continúa en 0.8.9.7 e iPhone en la beta 0.8.9.5. La nueva intro y los arreglos musicales de prueba todavía no están integrados.",
+  "notes": "Windows y Android 0.8.9.9 incluyen un chart más variado para El color verde / Plateado en Normal y Hard, la camisa corregida de BF en Trojoni y los sonidos de fallo y espera elegidos para su pantalla azul. iPhone continúa en la beta 0.8.9.5. La nueva intro y los arreglos musicales de prueba todavía no están integrados.",
   "downloads": {
     "windows": {
       "version": "0.8.9.9",
@@ -12,10 +12,10 @@
       "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.9/Pionero-Funkin-Windows.zip"
     },
     "android": {
-      "version": "0.8.9.7",
-      "bytes": 223115945,
-      "sha256": "759d22ee9abb0b83e48b6c8b93fababb31837abb95add39da5f661a54f8ea734",
-      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.7/Pionero-Funkin-Android.apk"
+      "version": "0.8.9.9",
+      "bytes": 223128233,
+      "sha256": "5ce15d9918690075f75cc28ee34e22d3b4ac86aa83ee9b0392d6d41613b69bbd",
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.9/Pionero-Funkin-Android.apk"
     },
     "ios": {
       "version": "0.8.9.5",
