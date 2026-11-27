@@ -1,21 +1,21 @@
 {
-  "version": "0.8.9.11",
+  "version": "0.8.9.23",
   "releaseLabel": "Piloto",
   "published": true,
-  "date": "2026-11-23",
-  "notes": "Semana 1 comienza en la cancha con el silbato de Johnny. Windows y Android muestran el puntaje y la precisión en español. En Android optimizamos los fondos, los personajes y la cámara de Trojoni. En Windows, mantén Enter para saltar la cinemática de la canción secreta.",
+  "date": "2026-11-26",
+  "notes": "Trojoni recupera su mezcla original. Los instrumentales del tutorial y de la Semana 1 tienen más presencia. Para andar con Jesús conserva sus cuatro estrofas y tiene un coro menos. Johnny usa su sprite habitual durante toda la transición de El color verde a Plateado.",
   "downloads": {
     "windows": {
-      "version": "0.8.9.11",
-      "bytes": 253997469,
-      "sha256": "a18f974e57fcd2787e9f8f79ca5bb9bbad36708f384558a94049feee1c0942fe",
-      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.11/Pionero-Funkin-Windows.zip"
+      "version": "0.8.9.23",
+      "bytes": 244785955,
+      "sha256": "dfeea0718fa0f2c67710f0506c477fb119af9e80ab118642519dd28f3ef6e395",
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.23/Pionero-Funkin-Windows.zip"
     },
     "android": {
-      "version": "0.8.9.11",
-      "bytes": 233077516,
-      "sha256": "143740eb67d81188a844468772591365563da487376eb807dc1af370dd4c5d11",
-      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.11/Pionero-Funkin-Android.apk"
+      "version": "0.8.9.23",
+      "bytes": 223685193,
+      "sha256": "269ff636613ee10ca66a94ac5c5d7d2a78494377429bc6fc6baf470d31f05c9e",
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.23/Pionero-Funkin-Android.apk"
     },
     "ios": {
       "version": "0.8.9.5",
