@@ -1,15 +1,15 @@
 {
-  "version": "0.8.9.23",
+  "version": "0.8.9.24",
   "releaseLabel": "Piloto",
   "published": true,
-  "date": "2026-11-26",
-  "notes": "Trojoni recupera su mezcla original. Los instrumentales del tutorial y de la Semana 1 tienen más presencia. Para andar con Jesús conserva sus cuatro estrofas y tiene un coro menos. Johnny usa su sprite habitual durante toda la transición de El color verde a Plateado.",
+  "date": "2026-11-27",
+  "notes": "Windows estrena el icono de Johnny con lentes transparentes en sus dos expresiones y sombras en el cuello y el pantalón durante el reposo.",
   "downloads": {
     "windows": {
-      "version": "0.8.9.23",
-      "bytes": 244785955,
-      "sha256": "dfeea0718fa0f2c67710f0506c477fb119af9e80ab118642519dd28f3ef6e395",
-      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.23/Pionero-Funkin-Windows.zip"
+      "version": "0.8.9.24",
+      "bytes": 244950995,
+      "sha256": "fe3c56366052d411a175df331bd4bda8e355522c96749c54e6d35521d2180069",
+      "url": "https://github.com/munozestabridisj-web/pionero-funkin-descargas/releases/download/v0.8.9.24/Pionero-Funkin-Windows.zip"
     },
     "android": {
       "version": "0.8.9.23",
